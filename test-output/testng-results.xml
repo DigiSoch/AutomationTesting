@@ -1,171 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T18:48:16 IST" name="MyTestSuite" finished-at="2024-11-14T18:48:25 IST" duration-ms="8729">
+  <suite started-at="2025-01-11T22:44:21 IST" name="MyTestSuite" finished-at="2025-01-11T22:44:32 IST" duration-ms="10580">
     <groups>
       <group name="basic">
-        <method signature="TestNGBasics.google_tile_test()[pri:1, instance:com.test.TestNGBasics@6a6cb05c]" name="google_tile_test" class="com.test.TestNGBasics"/>
-        <method signature="TestNGBasics.search_keyword()[pri:2, instance:com.test.TestNGBasics@6a6cb05c]" name="search_keyword" class="com.test.TestNGBasics"/>
+        <method signature="TestNGBasics.google_tile_test()[pri:1, instance:com.test.TestNGBasics@6025e1b6]" name="google_tile_test" class="com.test.TestNGBasics"/>
+        <method signature="TestNGBasics.search_keyword()[pri:2, instance:com.test.TestNGBasics@6025e1b6]" name="search_keyword" class="com.test.TestNGBasics"/>
       </group> <!-- basic -->
     </groups>
-    <test started-at="2024-11-14T18:48:16 IST" name="Test1" finished-at="2024-11-14T18:48:25 IST" duration-ms="8729">
+    <test started-at="2025-01-11T22:44:21 IST" name="Test1" finished-at="2025-01-11T22:44:32 IST" duration-ms="10580">
       <class name="com.test.TestNGBasics">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:16 IST" name="setup" finished-at="2024-11-14T18:48:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:21 IST" name="setup" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launch_browser()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:16 IST" name="launch_browser" finished-at="2024-11-14T18:48:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:21 IST" name="launch_browser" finished-at="2025-01-11T22:44:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_browser -->
-        <test-method signature="google_tile_test()[pri:1, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="google_tile_test" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google_tile_test -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="login" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:25 IST" name="login" finished-at="2025-01-11T22:44:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="enter_url()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="enter_url" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="enter_url()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:25 IST" name="enter_url" finished-at="2025-01-11T22:44:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_url -->
-        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="deleteAllCookies" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="google_tile_test()[pri:1, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:25 IST" name="google_tile_test" finished-at="2025-01-11T22:44:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteAllCookies -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="logout" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- google_tile_test -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:25 IST" name="logout" finished-at="2025-01-11T22:44:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method signature="search_keyword()[pri:2, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="search_keyword" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="search_keyword()[pri:2, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:32 IST" name="search_keyword" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_keyword -->
-        <test-method is-config="true" signature="enter_url()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="enter_url" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enter_url -->
-        <test-method is-config="true" signature="close_Browser()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="close_Browser" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_Browser -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="logout" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:32 IST" name="logout" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="generateTestReport()[pri:0, instance:com.test.TestNGBasics@6a6cb05c]" started-at="2024-11-14T18:48:25 IST" name="generateTestReport" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="deleteAllCookies()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:32 IST" name="deleteAllCookies" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:32 IST" name="close_Browser" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="enter_url()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:32 IST" name="enter_url" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_url -->
+        <test-method is-config="true" signature="generateTestReport()[pri:0, instance:com.test.TestNGBasics@6025e1b6]" started-at="2025-01-11T22:44:32 IST" name="generateTestReport" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestReport -->
       </class> <!-- com.test.TestNGBasics -->
       <class name="com.test.GoogleTitleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GoogleTitleTest@7c7a06ec]" started-at="2024-11-14T18:48:16 IST" name="setup" finished-at="2024-11-14T18:48:19 IST" duration-ms="2884" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.GoogleTitleTest@557caf28]" started-at="2025-01-11T22:44:21 IST" name="setup" finished-at="2025-01-11T22:44:25 IST" duration-ms="3361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getTitle()[pri:1, instance:com.test.GoogleTitleTest@7c7a06ec]" started-at="2024-11-14T18:48:19 IST" name="getTitle" finished-at="2024-11-14T18:48:19 IST" duration-ms="20" status="PASS">
+        <test-method signature="getTitle()[pri:1, instance:com.test.GoogleTitleTest@557caf28]" started-at="2025-01-11T22:44:25 IST" name="getTitle" finished-at="2025-01-11T22:44:25 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method signature="SearchTest()[pri:2, instance:com.test.GoogleTitleTest@7c7a06ec]" started-at="2024-11-14T18:48:19 IST" name="SearchTest" finished-at="2024-11-14T18:48:25 IST" duration-ms="5508" status="PASS">
+        <test-method signature="SearchTest()[pri:2, instance:com.test.GoogleTitleTest@557caf28]" started-at="2025-01-11T22:44:25 IST" name="SearchTest" finished-at="2025-01-11T22:44:32 IST" duration-ms="6860" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.arvind.com] but found [https://www.arvind.com › jobs-career]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.arvind.com] but found [https://www.arvind.com › jobs-career]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.test.GoogleTitleTest.SearchTest(GoogleTitleTest.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTitleTest@7c7a06ec]" started-at="2024-11-14T18:48:25 IST" name="tearDown" finished-at="2024-11-14T18:48:25 IST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.GoogleTitleTest@557caf28]" started-at="2025-01-11T22:44:32 IST" name="tearDown" finished-at="2025-01-11T22:44:32 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.GoogleTitleTest -->
       <class name="com.test.InvocationCountTest">
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@22555ebf]" started-at="2024-11-14T18:48:25 IST" name="sum" finished-at="2024-11-14T18:48:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="sum()[pri:0, instance:com.test.InvocationCountTest@45752059]" started-at="2025-01-11T22:44:21 IST" name="sum" finished-at="2025-01-11T22:44:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.test.InvocationCountTest -->
       <class name="com.test.TestNGAnnotationsHierarchy">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:16 IST" name="beforeSuite" finished-at="2024-11-14T18:48:16 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="beforeSuite" finished-at="2025-01-11T22:44:21 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:16 IST" name="beforeTest" finished-at="2024-11-14T18:48:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="beforeTest" finished-at="2025-01-11T22:44:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="beforeClass" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="beforeClass" finished-at="2025-01-11T22:44:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="beforeMethod" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="beforeMethod" finished-at="2025-01-11T22:44:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCase1()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="testCase1" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method signature="testCase1()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="testCase1" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="afterMethod" finished-at="2024-11-14T18:48:25 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="afterMethod" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="beforeMethod" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="beforeMethod" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCase2()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="testCase2" finished-at="2024-11-14T18:48:25 IST" duration-ms="1" status="PASS">
+        <test-method signature="testCase2()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="testCase2" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="afterMethod" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="afterMethod" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="afterClass" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:21 IST" name="afterClass" finished-at="2025-01-11T22:44:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="afterTest" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:32 IST" name="afterTest" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@702657cc]" started-at="2024-11-14T18:48:25 IST" name="afterSuite" finished-at="2024-11-14T18:48:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.TestNGAnnotationsHierarchy@40a4337a]" started-at="2025-01-11T22:44:32 IST" name="afterSuite" finished-at="2025-01-11T22:44:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
