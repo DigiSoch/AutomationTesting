@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" parallel="tests" thread-count="8">
+    <test name="Test1">
+        <classes>
+            <class name="com.test.GoogleTitleTest"></class>
+        <!--  <class name="com.test.ExceptionTimeOutTest"></class>-->   	
+ 			<class name="com.test.InvocationCountTest"></class>
+			<class name="com.test.TestNGAnnotationsHierarchy"></class>
+			<class name="com.test.TestNGBasics"></class>
+        </classes>
+    </test>
+    
+    
+</suite>
