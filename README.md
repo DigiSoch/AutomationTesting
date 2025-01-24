@@ -17,4 +17,12 @@ This repository contains reusable utility classes for automating various test sc
 *   Selenium WebDriver
 *   TestNG
 *   Maven
+
+---
+
+## Connect with me
+
+- **Name:** Arvind Kumar
+- **LinkedIn:** [LinkedIn Profile URL](https://www.linkedin.com/in/arvind-kumar-a8b591221/)
+- **Email:** [Email](mailto:arvindkumarlbsmca@gmail.com)
 	
