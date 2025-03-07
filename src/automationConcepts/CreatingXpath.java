@@ -84,7 +84,6 @@ public class CreatingXpath {
 			//using following axis to locate current address
 			driver.get("https://demoqa.com/text-box");
 			driver.findElement(By.xpath("//input[@id=\"userName\"]/following::textarea")).sendKeys("Text Area locate following");
-			
 			//using following-sibling to locate email 
 			driver.findElement(By.xpath("(//div[@class='col-md-3 col-sm-12']/following-sibling::div/input)[2]")).sendKeys("abc@xyz.com");
 			

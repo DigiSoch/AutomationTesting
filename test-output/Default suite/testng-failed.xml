@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="importantConcepts.SlowScroll">
+      <class name="importantConcepts.Screenshot">
         <methods>
-          <include name="testSlowScroll"/>
-          <include name="tearDown"/>
+          <include name="demoTest"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- importantConcepts.SlowScroll -->
+      </class> <!-- importantConcepts.Screenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

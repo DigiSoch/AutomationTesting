@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-21T00:11:23 IST" name="Default suite" finished-at="2025-01-21T00:12:37 IST" duration-ms="73816">
+  <suite started-at="2025-01-27T20:39:42 IST" name="Default suite" finished-at="2025-01-27T20:39:47 IST" duration-ms="4881">
     <groups>
     </groups>
-    <test started-at="2025-01-21T00:11:23 IST" name="Default test" finished-at="2025-01-21T00:12:37 IST" duration-ms="73816">
-      <class name="importantConcepts.SlowScroll">
-        <test-method is-config="true" signature="setup()[pri:0, instance:importantConcepts.SlowScroll@78691363]" started-at="2025-01-21T00:11:23 IST" name="setup" finished-at="2025-01-21T00:11:27 IST" duration-ms="4331" status="PASS">
+    <test started-at="2025-01-27T20:39:42 IST" name="Default test" finished-at="2025-01-27T20:39:47 IST" duration-ms="4881">
+      <class name="importantConcepts.Screenshot">
+        <test-method is-config="true" signature="setup()[pri:0, instance:importantConcepts.Screenshot@3e694b3f]" started-at="2025-01-27T20:39:42 IST" name="setup" finished-at="2025-01-27T20:39:45 IST" duration-ms="2791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSlowScroll()[pri:0, instance:importantConcepts.SlowScroll@78691363]" started-at="2025-01-21T00:11:27 IST" name="testSlowScroll" finished-at="2025-01-21T00:12:37 IST" duration-ms="69462" status="PASS">
+        <test-method signature="takeS()[pri:0, instance:importantConcepts.Screenshot@3e694b3f]" started-at="2025-01-27T20:39:45 IST" name="takeS" finished-at="2025-01-27T20:39:47 IST" duration-ms="2049" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSlowScroll -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:importantConcepts.SlowScroll@78691363]" started-at="2025-01-21T00:12:37 IST" name="tearDown" finished-at="2025-01-21T00:12:37 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- takeS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:importantConcepts.Screenshot@3e694b3f]" started-at="2025-01-27T20:39:47 IST" name="tearDown" finished-at="2025-01-27T20:39:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- importantConcepts.SlowScroll -->
+      </class> <!-- importantConcepts.Screenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
